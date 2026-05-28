@@ -1,0 +1,21 @@
+# input data (re-downloadable from IDRome paper)
+IDRome_DB.csv
+
+# regenerable build artifacts (build_constructs.py reproduces these in seconds)
+constructs/individual/
+constructs/by_variant/
+
+# Colab outputs
+embeddings/
+predictions/
+
+# CD-HIT bookkeeping
+*.clstr
+
+# python / OS noise
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
+.venv/
