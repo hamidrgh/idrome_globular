@@ -12,6 +12,9 @@ predictions/
 # CD-HIT bookkeeping
 *.clstr
 
+# downstream embedding analysis scripts (kept local, not published)
+analyze_tier*.py
+
 # python / OS noise
 __pycache__/
 *.py[cod]
